@@ -1,5 +1,5 @@
 target/
-.idea
-.mvn
+.idea/
+.mvn/
 
-*/.mvn
+*/.mvn/
