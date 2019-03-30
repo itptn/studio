@@ -1,0 +1,91 @@
+
+Gsquid:S1148Ÿ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ô¯Æ¥š-
+\
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(ÊıÂòıÿÿÿÿ8ô¯Æ¥š-
+V
+squid:S106Ê"9Replace this use of System.out or System.err by a logger.(©®ÖU8ô¯Æ¥š-
+W
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(øâ¼¾8ô¯Æ¥š-
+Fsquid:S1604Ø"(Make this anonymous inner class a lambda(Œód8ô¯Æ¥š-
+©%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¥äŒòûÿÿÿÿ8ô¯Æ¥š-
+W
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÆÀûı8ô¯Æ¥š-
+W
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(øâ¼¾8ô¯Æ¥š-
+W
+squid:S106…"9Replace this use of System.out or System.err by a logger.(‚çÖ8ô¯Æ¥š-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(×ŠÓ“ûÿÿÿÿ8ô¯Æ¥š-
+W
+squid:S106ğ"9Replace this use of System.out or System.err by a logger.(†â¨8ô¯Æ¥š-
+W
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(•×İ‰8ô¯Æ¥š-
+Gsquid:S1604‚"(Make this anonymous inner class a lambda(½ö™8ô¯Æ¥š-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(«–“Ä8ô¯Æ¥š-
+Lsquid:S1604§"(Make this anonymous inner class a lambda(İ’Œıÿÿÿÿÿ8ô¯Æ¥š-
+Lsquid:S1604½"(Make this anonymous inner class a lambda(¹ÂÙ­ùÿÿÿÿ8ô¯Æ¥š-
+W
+squid:S106ş"9Replace this use of System.out or System.err by a logger.(İäÔ8ô¯Æ¥š-
+ksquid:S00112é"FDefine and throw a dedicated exception instead of using a generic one.(ßæù÷ıÿÿÿÿ8ô¯Æ¥š-
+V
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(†û¢~8ô¯Æ¥š-
+nsquid:UnusedPrivateMethodé"<Remove this unused private "threadPoolExecutorTest8" method.(ßæù÷ıÿÿÿÿ8ô¯Æ¥š-
+zsquid:S1192G"\Define a constant instead of duplicating this literal "æœ‰ä»»åŠ¡è¢«æ‹’ç»æ‰§è¡Œäº†" 3 times.(†â¨8ô¯Æ¥š-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(•×İ‰8ô¯Æ¥š-
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ùŠ¨‡üÿÿÿÿ8ô¯Æ¥š-
+ssquid:S1192#"UDefine a constant instead of duplicating this literal "ä»»åŠ¡æäº¤æˆåŠŸ :" 3 times.(•×İ‰8ô¯Æ¥š-
+W
+squid:S106Ì"9Replace this use of System.out or System.err by a logger.(«–“Ä8ô¯Æ¥š-
+lsquid:S1192"NDefine a constant instead of duplicating this literal "æ‰§è¡Œç»“æŸ:" 3 times.(«–“Ä8ô¯Æ¥š-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô¯Æ¥š-
+nsquid:UnusedPrivateMethod“"<Remove this unused private "threadPoolExecutorTest6" method.(Ñ‡¾ìÿÿÿÿÿ8ô¯Æ¥š-
+W
+squid:S106Î"9Replace this use of System.out or System.err by a logger.(İäÔ8ô¯Æ¥š-
+Esquid:S1604"(Make this anonymous inner class a lambda(Œód8ô¯Æ¥š-
+Fsquid:S1604Æ"(Make this anonymous inner class a lambda(Œód8ô¯Æ¥š-
+osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(•ìôÿÿÿÿÿÿ8ô¯Æ¥š-
+Gsquid:S1604™"(Make this anonymous inner class a lambda(§«…»8ô¯Æ¥š-
+W
+squid:S106"9Replace this use of System.out or System.err by a logger.(Àğ—8ô¯Æ¥š-
+Lsquid:S1604í"(Make this anonymous inner class a lambda(¹ÂÙ­ùÿÿÿÿ8ô¯Æ¥š-
+msquid:UnusedPrivateMethodX"<Remove this unused private "threadPoolExecutorTest3" method.(²¸Ë·úÿÿÿÿ8ô¯Æ¥š-
+Gsquid:S1148­"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ô¯Æ¥š-
+ksquid:S00112“"FDefine and throw a dedicated exception instead of using a generic one.(Ñ‡¾ìÿÿÿÿÿ8ô¯Æ¥š-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(©®ÖU8ô¯Æ¥š-
+msquid:UnusedPrivateMethodf"<Remove this unused private "threadPoolExecutorTest4" method.(Ğ³—Äúÿÿÿÿ8ô¯Æ¥š-
+msquid:UnusedPrivateMethod"<Remove this unused private "threadPoolExecutorTest5" method.(¥äŒòûÿÿÿÿ8ô¯Æ¥š-
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(ùŠ¨‡üÿÿÿÿ8ô¯Æ¥š-
+V
+squid:S106G"9Replace this use of System.out or System.err by a logger.(†â¨8ô¯Æ¥š-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ÌáÕ´úÿÿÿÿ8ô¯Æ¥š-
+Fsquid:S1604ˆ"(Make this anonymous inner class a lambda(Œód8ô¯Æ¥š-
+msquid:UnusedPrivateMethod@"<Remove this unused private "threadPoolExecutorTest2" method.(¹ùé„şÿÿÿÿ8ô¯Æ¥š-
+V
+squid:S106ú"9Replace this use of System.out or System.err by a logger.(©®ÖU8ô¯Æ¥š-
+esquid:S2142ı"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô¯Æ¥š-
+fsquid:S00112¹"FDefine and throw a dedicated exception instead of using a generic one.(§¤Ø…8ô¯Æ¥š-
+W
+squid:S106À"9Replace this use of System.out or System.err by a logger.(†â¨8ô¯Æ¥š-
+esquid:S2142¬"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô¯Æ¥š-
+msquid:S1192"PDefine a constant instead of duplicating this literal "å¼€å§‹æ‰§è¡Œï¼š" 3 times.(©®ÖU8ô¯Æ¥š-
+Fsquid:S1604ö"(Make this anonymous inner class a lambda(Œód8ô¯Æ¥š-
+ª%squid:RedundantThrowsDeclarationCheck“"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ñ‡¾ìÿÿÿÿÿ8ô¯Æ¥š-
+esquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô¯Æ¥š-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¥äŒòûÿÿÿÿ8ô¯Æ¥š-
+isquid:UnusedPrivateMethod¹"<Remove this unused private "threadPoolExecutorTest7" method.(§¤Ø…8ô¯Æ¥š-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ô¯Æ¥š-
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ÌáÕ´úÿÿÿÿ8ô¯Æ¥š-
+V
+squid:S106v"9Replace this use of System.out or System.err by a logger.(ûÙÄî8ô¯Æ¥š-
+W
+squid:S106Ò"9Replace this use of System.out or System.err by a logger.(•×İ‰8ô¯Æ¥š-
+W
+squid:S106ü"9Replace this use of System.out or System.err by a logger.(«–“Ä8ô¯Æ¥š-
+Ksquid:S1604D"(Make this anonymous inner class a lambda(¹ÂÙ­ùÿÿÿÿ8ô¯Æ¥š-
+esquid:S2142Í"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ô¯Æ¥š-

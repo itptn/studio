@@ -1,0 +1,16 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.( Æªùÿÿÿÿ8£¿ÇÏœ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(²ßìƒûÿÿÿÿ8£¿ÇÏœ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÉÀÚ8£¿ÇÏœ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(»£Ãºûÿÿÿÿ8£¿ÇÏœ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(»¢ú³şÿÿÿÿ8£¿ÇÏœ-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ç´¿™üÿÿÿÿ8£¿ÇÏœ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8£¿ÇÏœ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8£¿ÇÏœ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ùì´8ì¦ËÏœ-

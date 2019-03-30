@@ -1,0 +1,10 @@
+
+ˆ"squid:ClassVariableVisibilityCheck"SMake waiters a static final constant or non-public and provide accessors if needed.(Ã¸Ì§8’¤šš-
+]
+squid:S899c";Do something with the "boolean" value returned by "remove".(¯¢Ú¾şÿÿÿÿ8»°šš-
+]
+squid:S899H";Do something with the "boolean" value returned by "remove".(¯¢Ú¾şÿÿÿÿ8İ®‡šš-
+W
+squid:S899[":Do something with the "boolean" value returned by "offer".(‡Ú²ã8»°šš-
+W
+squid:S899@":Do something with the "boolean" value returned by "offer".(‡Ú²ã8İ®‡šš-

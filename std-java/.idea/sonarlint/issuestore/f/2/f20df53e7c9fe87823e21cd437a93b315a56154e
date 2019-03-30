@@ -1,0 +1,9 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(—Ã‘‡üÿÿÿÿ8äÅá¥œ-
+Š"squid:ClassVariableVisibilityCheck<"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ8‡ÝÁ¥œ-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(—Ã‘‡üÿÿÿÿ8àÎÀ¥œ-
+†"squid:ClassVariableVisibilityCheck;"QMake value a static final constant or non-public and provide accessors if needed.(çªÆà8‡ÝÁ¥œ-
+‰"squid:ClassVariableVisibilityCheck:"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ8‡ÝÁ¥œ-
+¤%squid:RedundantThrowsDeclarationCheck#"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ðºÚ¥œ-

@@ -1,0 +1,146 @@
+Classfile /Users/yuyangjun/WorkSpace/space-s/studio/std-java/netease-java/src/main/java/com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo.class
+  Last modified 2019-3-14; size 1150 bytes
+  MD5 checksum 69ef0a78e2a0ff352761caf53873b65d
+  Compiled from "VisibilityDemo.java"
+public class VisibilityDemo
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Fieldref           #3.#33         // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo.flag:Z
+   #2 = Methodref          #17.#34        // java/lang/Object."<init>":()V
+   #3 = Class              #35            // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo
+   #4 = Methodref          #3.#34         // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo."<init>":()V
+   #5 = Class              #36            // java/lang/Thread
+   #6 = Class              #37            // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1
+   #7 = Methodref          #6.#38         // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1."<init>":(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+   #8 = Methodref          #5.#39         // java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+   #9 = Methodref          #5.#40         // java/lang/Thread.start:()V
+  #10 = Fieldref           #41.#42        // java/util/concurrent/TimeUnit.SECONDS:Ljava/util/concurrent/TimeUnit;
+  #11 = Long               2l
+  #13 = Methodref          #41.#43        // java/util/concurrent/TimeUnit.sleep:(J)V
+  #14 = Fieldref           #44.#45        // java/lang/System.out:Ljava/io/PrintStream;
+  #15 = String             #46            // Flag设置为false
+  #16 = Methodref          #47.#48        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #17 = Class              #49            // java/lang/Object
+  #18 = Utf8               InnerClasses
+  #19 = Utf8               flag
+  #20 = Utf8               Z
+  #21 = Utf8               <init>
+  #22 = Utf8               ()V
+  #23 = Utf8               Code
+  #24 = Utf8               LineNumberTable
+  #25 = Utf8               main
+  #26 = Utf8               ([Ljava/lang/String;)V
+  #27 = Utf8               Exceptions
+  #28 = Class              #50            // java/lang/InterruptedException
+  #29 = Utf8               access$000
+  #30 = Utf8               (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+  #31 = Utf8               SourceFile
+  #32 = Utf8               VisibilityDemo.java
+  #33 = NameAndType        #19:#20        // flag:Z
+  #34 = NameAndType        #21:#22        // "<init>":()V
+  #35 = Utf8               com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo
+  #36 = Utf8               java/lang/Thread
+  #37 = Utf8               com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1
+  #38 = NameAndType        #21:#51        // "<init>":(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+  #39 = NameAndType        #21:#52        // "<init>":(Ljava/lang/Runnable;)V
+  #40 = NameAndType        #53:#22        // start:()V
+  #41 = Class              #54            // java/util/concurrent/TimeUnit
+  #42 = NameAndType        #55:#56        // SECONDS:Ljava/util/concurrent/TimeUnit;
+  #43 = NameAndType        #57:#58        // sleep:(J)V
+  #44 = Class              #59            // java/lang/System
+  #45 = NameAndType        #60:#61        // out:Ljava/io/PrintStream;
+  #46 = Utf8               Flag设置为false
+  #47 = Class              #62            // java/io/PrintStream
+  #48 = NameAndType        #63:#64        // println:(Ljava/lang/String;)V
+  #49 = Utf8               java/lang/Object
+  #50 = Utf8               java/lang/InterruptedException
+  #51 = Utf8               (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+  #52 = Utf8               (Ljava/lang/Runnable;)V
+  #53 = Utf8               start
+  #54 = Utf8               java/util/concurrent/TimeUnit
+  #55 = Utf8               SECONDS
+  #56 = Utf8               Ljava/util/concurrent/TimeUnit;
+  #57 = Utf8               sleep
+  #58 = Utf8               (J)V
+  #59 = Utf8               java/lang/System
+  #60 = Utf8               out
+  #61 = Utf8               Ljava/io/PrintStream;
+  #62 = Utf8               java/io/PrintStream
+  #63 = Utf8               println
+  #64 = Utf8               (Ljava/lang/String;)V
+{
+  private volatile boolean flag;
+    descriptor: Z
+    flags: ACC_PRIVATE, ACC_VOLATILE
+
+  public VisibilityDemo();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #2                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_1
+         6: putfield      #1                  // Field flag:Z
+         9: return
+      LineNumberTable:
+        line 10: 0
+        line 11: 4
+
+  public static void main(java.lang.String[]) throws java.lang.InterruptedException;
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=3, args_size=1
+         0: new           #3                  // class com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo
+         3: dup
+         4: invokespecial #4                  // Method "<init>":()V
+         7: astore_1
+         8: new           #5                  // class java/lang/Thread
+        11: dup
+        12: new           #6                  // class com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1
+        15: dup
+        16: aload_1
+        17: invokespecial #7                  // Method com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1."<init>":(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+        20: invokespecial #8                  // Method java/lang/Thread."<init>":(Ljava/lang/Runnable;)V
+        23: astore_2
+        24: aload_2
+        25: invokevirtual #9                  // Method java/lang/Thread.start:()V
+        28: getstatic     #10                 // Field java/util/concurrent/TimeUnit.SECONDS:Ljava/util/concurrent/TimeUnit;
+        31: ldc2_w        #11                 // long 2l
+        34: invokevirtual #13                 // Method java/util/concurrent/TimeUnit.sleep:(J)V
+        37: aload_1
+        38: iconst_0
+        39: putfield      #1                  // Field flag:Z
+        42: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        45: ldc           #15                 // String Flag设置为false
+        47: invokevirtual #16                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        50: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 8
+        line 25: 24
+        line 27: 28
+        line 28: 37
+        line 29: 42
+        line 30: 50
+    Exceptions:
+      throws java.lang.InterruptedException
+
+  static boolean access$000(VisibilityDemo);
+    descriptor: (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+    flags: ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #1                  // Field flag:Z
+         4: ireturn
+      LineNumberTable:
+        line 10: 0
+}
+SourceFile: "VisibilityDemo.java"
+InnerClasses:
+     static #6; //class com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1

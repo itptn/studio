@@ -19,6 +19,9 @@
         <commons.collections4>4.0</commons.collections4>
     </properties>
 
-
+    <modules>
+        <module>design-pattern</module>
+        <module>netease-java</module>
+    </modules>
 
 </project>

@@ -1,0 +1,105 @@
+Classfile /Users/yuyangjun/WorkSpace/space-s/studio/std-java/netease-java/src/main/java/com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1.class
+  Last modified 2019-3-14; size 926 bytes
+  MD5 checksum a60a93caf244829d28a2b8312994f3a4
+  Compiled from "VisibilityDemo.java"
+final class VisibilityDemo$1 implements java.lang.Runnable
+  minor version: 0
+  major version: 52
+  flags: ACC_FINAL, ACC_SUPER
+Constant pool:
+   #1 = Fieldref           #6.#23         // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1.val$demo1:Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+   #2 = Methodref          #7.#24         // java/lang/Object."<init>":()V
+   #3 = Methodref          #21.#25        // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo.access$000:(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+   #4 = Fieldref           #26.#27        // java/lang/System.out:Ljava/io/PrintStream;
+   #5 = Methodref          #28.#29        // java/io/PrintStream.println:(I)V
+   #6 = Class              #30            // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1
+   #7 = Class              #32            // java/lang/Object
+   #8 = Class              #33            // java/lang/Runnable
+   #9 = Utf8               val$demo1
+  #10 = Utf8               Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+  #11 = Utf8               <init>
+  #12 = Utf8               (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+  #13 = Utf8               Code
+  #14 = Utf8               LineNumberTable
+  #15 = Utf8               run
+  #16 = Utf8               ()V
+  #17 = Utf8               StackMapTable
+  #18 = Utf8               SourceFile
+  #19 = Utf8               VisibilityDemo.java
+  #20 = Utf8               EnclosingMethod
+  #21 = Class              #34            // com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo
+  #22 = NameAndType        #35:#36        // main:([Ljava/lang/String;)V
+  #23 = NameAndType        #9:#10         // val$demo1:Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+  #24 = NameAndType        #11:#16        // "<init>":()V
+  #25 = NameAndType        #37:#38        // access$000:(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+  #26 = Class              #39            // java/lang/System
+  #27 = NameAndType        #40:#41        // out:Ljava/io/PrintStream;
+  #28 = Class              #42            // java/io/PrintStream
+  #29 = NameAndType        #43:#44        // println:(I)V
+  #30 = Utf8               com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1
+  #31 = Utf8               InnerClasses
+  #32 = Utf8               java/lang/Object
+  #33 = Utf8               java/lang/Runnable
+  #34 = Utf8               com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo
+  #35 = Utf8               main
+  #36 = Utf8               ([Ljava/lang/String;)V
+  #37 = Utf8               access$000
+  #38 = Utf8               (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+  #39 = Utf8               java/lang/System
+  #40 = Utf8               out
+  #41 = Utf8               Ljava/io/PrintStream;
+  #42 = Utf8               java/io/PrintStream
+  #43 = Utf8               println
+  #44 = Utf8               (I)V
+{
+  final VisibilityDemo val$demo1;
+    descriptor: Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+    flags: ACC_FINAL, ACC_SYNTHETIC
+
+  VisibilityDemo$1(VisibilityDemo);
+    descriptor: (Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)V
+    flags:
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: putfield      #1                  // Field val$demo1:Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+         5: aload_0
+         6: invokespecial #2                  // Method java/lang/Object."<init>":()V
+         9: return
+      LineNumberTable:
+        line 15: 0
+
+  public void run();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: iconst_0
+         1: istore_1
+         2: aload_0
+         3: getfield      #1                  // Field val$demo1:Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;
+         6: invokestatic  #3                  // Method com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo.access$000:(Lcom/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo;)Z
+         9: ifeq          18
+        12: iinc          1, 1
+        15: goto          2
+        18: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        21: iload_1
+        22: invokevirtual #5                  // Method java/io/PrintStream.println:(I)V
+        25: return
+      LineNumberTable:
+        line 18: 0
+        line 19: 2
+        line 20: 12
+        line 22: 18
+        line 23: 25
+      StackMapTable: number_of_entries = 2
+        frame_type = 252 /* append */
+          offset_delta = 2
+          locals = [ int ]
+        frame_type = 15 /* same */
+}
+SourceFile: "VisibilityDemo.java"
+EnclosingMethod: #21.#22                // VisibilityDemo.main
+InnerClasses:
+     static #6; //class com/itptn/thread/chapter1/thread/volatiletest/VisibilityDemo$1

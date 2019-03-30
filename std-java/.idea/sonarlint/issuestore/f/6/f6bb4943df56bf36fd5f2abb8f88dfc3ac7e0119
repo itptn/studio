@@ -1,0 +1,69 @@
+
+\squid:CallToDeprecatedMethodC"/Remove this use of "suspend"; it is deprecated.(’´ñÏùÿÿÿÿ
+]squid:S2142x"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+O
+squid:S106f"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+P
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+Msquid:S2696J"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+O
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+P
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+]squid:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:CallToDeprecatedMethod3".Remove this use of "resume"; it is deprecated.(ÌƒÍàúÿÿÿÿ
+O
+squid:S106}"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+Msquid:S26961"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+O
+squid:S106W"9Replace this use of System.out or System.err by a logger.(àú¸ô
+Nsquid:S2696–"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+?squid:S1148y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Msquid:S2696c"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+Nsquid:S2696ª"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(àú¸ô
+O
+squid:S106="9Replace this use of System.out or System.err by a logger.(àú¸ô
+?squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[squid:CallToDeprecatedMethodK".Remove this use of "resume"; it is deprecated.(ÌƒÍàúÿÿÿÿ
+fsquid:S1192"ODefine a constant instead of duplicating this literal "1 è¿›å…¥ç­‰å¾…" 7 times.(àú¸ô
+O
+squid:S106E"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(àú¸ô
+P
+squid:S106"9Replace this use of System.out or System.err by a logger.(àú¸ô
+Nsquid:S2696‚"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+\squid:CallToDeprecatedMethod"/Remove this use of "suspend"; it is deprecated.(’´ñÏùÿÿÿÿ
+fsquid:S1192"ODefine a constant instead of duplicating this literal "2 ä¹°åˆ°åŒ…å­" 7 times.(€ÉáÂ
+?squid:S1148r"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ
+P
+squid:S106®"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+P
+squid:S106…"9Replace this use of System.out or System.err by a logger.(ö’Şæ
+?squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106,"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+P
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+]squid:S2142q"FEither re-interrupt this method or rethrow the "InterruptedException".(‘í†
+O
+squid:S106v"9Replace this use of System.out or System.err by a logger.(àú¸ô
+\squid:CallToDeprecatedMethod)"/Remove this use of "suspend"; it is deprecated.(’´ñÏùÿÿÿÿ
+P
+squid:S106 "9Replace this use of System.out or System.err by a logger.(àú¸ô
+O
+squid:S106^"9Replace this use of System.out or System.err by a logger.(€ÉáÂ
+]squid:S2142@"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Fsquid:S1444"/Make this "public static baoZiDian" field final(Ï»íñ
+ƒ"squid:ClassVariableVisibilityCheck"UMake baoZiDian a static final constant or non-public and provide accessors if needed.(Ï»íñ
+fsquid:S1192"ODefine a constant instead of duplicating this literal "3 åŒ…å­å¥½äº†" 7 times.(ö’Şæ
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(ÛÎÿ
+[squid:CallToDeprecatedMethod".Remove this use of "resume"; it is deprecated.(ÌƒÍàúÿÿÿÿ

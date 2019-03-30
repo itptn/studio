@@ -1,0 +1,6 @@
+
+[squid:S1858"="get" returns a string, there's no need to call "toString()".(ÙûÒŸ8å€¼¤š-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙûÒŸ8Å‹»¤š-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(½šçíúÿÿÿÿ8ø¸¦¤š-

@@ -1,0 +1,11 @@
+
+T
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ËªÀÚüÿÿÿÿ
+O
+squid:S1065"9Replace this use of System.out or System.err by a logger.(¥¸¯©
+­%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ˆò›øÿÿÿÿ
+­%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Õò±Îúÿÿÿÿ
+¨%squid:RedundantThrowsDeclarationCheck-"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ş¯•£
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚º¹šıÿÿÿÿ
+csquid:S1192"GDefine a constant instead of duplicating this literal "ms, v-" 3 times.(‚º¹šıÿÿÿÿ
